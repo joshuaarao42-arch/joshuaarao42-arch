@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="110" viewBox="0 0 1200 110">
+  <defs>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0" stop-color="#00d4ff" stop-opacity="0"/>
+      <stop offset=".22" stop-color="#00d4ff"/>
+      <stop offset=".5" stop-color="#a855f7"/>
+      <stop offset=".78" stop-color="#ff3cac"/>
+      <stop offset="1" stop-color="#ff3cac" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-200%" width="200%" height="500%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="110" fill="#070b16" fill-opacity=".92"/>
+  <path d="M0 22H1200 M0 88H1200" stroke="#1b2942" stroke-width="1" opacity=".8"/>
+  <path d="M70 55H1130" stroke="url(#line)" stroke-width="2" filter="url(#glow)"/>
+  <path d="M70 55h170l12-9h120 M1130 55H960l-12 9H828" fill="none" stroke="#00d4ff" stroke-width="1" opacity=".8"/>
+  <path d="M0 55h52m1096 0h52" stroke="#ff3cac" stroke-width="2"/>
+  <g fill="#00e5ff" opacity=".9">
+    <path d="M55 49l6 6-6 6-6-6z"/><path d="M1145 49l6 6-6 6-6-6z"/>
+  </g>
+  <g font-family="monospace" font-size="11" letter-spacing="3" fill="#7186a8">
+    <text x="72" y="42">IDENTITY</text><text x="1128" y="42" text-anchor="end">INTRODUCTION</text>
+  </g>
+  <g font-family="monospace" font-size="13" font-weight="bold" letter-spacing="5" text-anchor="middle">
+    <text x="602" y="61" fill="#00d4ff" opacity=".85">
+      PROFILE // OVERVIEW
+      <animate attributeName="opacity" values=".45;1;.7;1;.45" dur="2.8s" repeatCount="indefinite"/>
+    </text>
+    <text x="598" y="61" fill="#ff3cac" opacity=".65">PROFILE // OVERVIEW
+      <animate attributeName="x" values="598;603;598" dur="1.7s" repeatCount="indefinite"/>
+    </text>
+    <text x="600" y="61" fill="#eaf7ff">PROFILE // OVERVIEW</text>
+  </g>
+  <path d="M260 76H940" stroke="url(#line)" stroke-width="1" opacity=".8"/>
+  <circle cx="600" cy="76" r="2" fill="#eaf7ff"/>
+</svg>
