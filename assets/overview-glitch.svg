@@ -1,26 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="92" viewBox="0 0 900 92" role="img" aria-labelledby="t d">
-<title id="t">Glitching overview title</title><desc id="d">Animated overview label with cyan and magenta glitch offsets and scanning signal.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="t d">
+<title id="t">Overview</title><desc id="d">Large animated neon overview banner with cyan and magenta glitch lettering, circuit details, scanlines, and a glowing digital core.</desc>
 <defs>
- <linearGradient id="g"><stop stop-color="#00e5ff"/><stop offset="1" stop-color="#b34cff"/></linearGradient>
- <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050b1d"/><stop offset=".55" stop-color="#101a45"/><stop offset="1" stop-color="#24104b"/></linearGradient>
+ <linearGradient id="neon"><stop stop-color="#00e5ff"/><stop offset=".52" stop-color="#8b5cf6"/><stop offset="1" stop-color="#ff3cac"/></linearGradient>
+ <radialGradient id="orb"><stop stop-color="#00e5ff" stop-opacity=".4"/><stop offset="1" stop-color="#00e5ff" stop-opacity="0"/></radialGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" fill="none" stroke="#5aa8ff" stroke-opacity=".10"/></pattern>
  <style>
- text{font-family:monospace;font-weight:900;letter-spacing:7px}
- .base{font-size:38px;fill:#eafaff}
- .c{font-size:38px;fill:#00e5ff;opacity:.8;animation:a 2.4s infinite steps(2,end)}
- .m{font-size:38px;fill:#ff3c9d;opacity:.75;animation:b 2.1s infinite steps(2,end)}
- .tag{font-size:11px;fill:#a8c7dd;letter-spacing:3px;animation:f 3s infinite}
- @keyframes a{0%,90%,100%{transform:translate(0,0)}92%{transform:translate(5px,-2px)}95%{transform:translate(-4px,1px)}}
- @keyframes b{0%,88%,100%{transform:translate(0,0)}90%{transform:translate(-6px,2px)}94%{transform:translate(4px,-1px)}}
- @keyframes f{0%,100%{opacity:1}50%{opacity:.4}}
+ .head{font:900 66px Arial,sans-serif;letter-spacing:8px;fill:#effaff}
+ .sub{font:700 13px monospace;letter-spacing:5px;fill:#8edfff}
+ .micro{font:10px monospace;letter-spacing:3px;fill:#7dd3fc}
+ .g1{animation:g1 3s infinite steps(2,end)}.g2{animation:g2 2.6s infinite steps(2,end)}
+ .scan{animation:scan 4.5s linear infinite}.pulse{animation:pulse 2.5s ease-in-out infinite}
+ .orbit{transform-origin:1010px 130px;animation:spin 18s linear infinite}
+ @keyframes g1{0%,91%,100%{transform:translate(0)}93%{transform:translate(6px,-2px)}96%{transform:translate(-4px,1px)}}
+ @keyframes g2{0%,88%,100%{transform:translate(0)}90%{transform:translate(-6px,2px)}95%{transform:translate(3px,-1px)}}
+ @keyframes scan{from{transform:translateX(-280px)}to{transform:translateX(280px)}}
+ @keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+ @keyframes spin{to{transform:rotate(360deg)}}
  </style>
 </defs>
-<path d="M0 14H900M0 78H900" stroke="url(#g)" stroke-width="1" opacity=".55"/>
-<path d="M0 14H150M750 78H900" stroke="#00e5ff" stroke-width="2"><animate attributeName="stroke-dasharray" values="10 20;80 10;10 20" dur="2.8s" repeatCount="indefinite"/></path>
-<g filter="url(#glow)">
- <text x="450" y="58" text-anchor="middle" class="c">OVERVIEW</text>
- <text x="450" y="58" text-anchor="middle" class="m">OVERVIEW</text>
- <text x="450" y="58" text-anchor="middle" class="base">OVERVIEW</text>
+<rect width="1200" height="260" rx="20" fill="url(#bg)" stroke="#24518a" stroke-width="2"/>
+<rect width="1200" height="260" rx="20" fill="url(#grid)"/>
+<ellipse cx="1010" cy="130" rx="210" ry="145" fill="url(#orb)"/>
+<path d="M0 226H1200" stroke="url(#neon)" stroke-width="2" opacity=".8"/>
+<path d="M28 28H210l18 18h70M1172 28H990l-18 18h-70M28 232h170l18-18h80M1172 232h-170l-18-18h-80" fill="none" stroke="url(#neon)" stroke-width="1.5" opacity=".65"/>
+<g class="orbit" fill="none" stroke="#00dfff" opacity=".65"><circle cx="1010" cy="130" r="78" stroke-dasharray="3 9" stroke-width="2"/><circle cx="1010" cy="130" r="58" stroke="#8b5cf6" stroke-dasharray="35 12 4 12"/></g>
+<g filter="url(#glow)"><circle cx="1010" cy="130" r="42" fill="#091b3c" stroke="#00e5ff" stroke-width="2"/><path d="M1010 97l10 23 25 4-18 17 5 25-22-12-22 12 5-25-18-17 25-4z" fill="none" stroke="#8cecff" stroke-width="2"/><circle cx="1010" cy="130" r="15" fill="#00dfff" opacity=".22"/></g>
+<g>
+ <text x="100" y="116" class="head" filter="url(#glow)">OVERVIEW</text>
+ <text x="100" y="116" class="head g1" fill="#00e5ff" opacity=".55">OVERVIEW</text>
+ <text x="100" y="116" class="head g2" fill="#ff3cac" opacity=".55">OVERVIEW</text>
+ <path d="M100 139H690" stroke="url(#neon)" stroke-width="3"/>
+ <text x="102" y="174" class="sub">WHO I AM • WHAT I BUILD • WHAT I EXPLORE</text>
+ <text x="102" y="205" class="micro">SOFTWARE DEVELOPMENT // CONTINUOUS LEARNING</text>
 </g>
-<text x="12" y="10" class="tag">SYSTEM INTRO</text><text x="888" y="10" text-anchor="end" class="tag">SIGNAL_SYNC</text>
-<rect x="0" y="0" width="900" height="2" fill="#00e5ff" opacity=".65"><animate attributeName="y" values="0;90;0" dur="4s" repeatCount="indefinite"/></rect>
+<g class="scan"><path d="M600 0V260" stroke="#7cecff" stroke-width="42" opacity=".06"/></g>
+<g class="pulse" fill="#00e5ff"><circle cx="74" cy="50" r="3"/><circle cx="740" cy="194" r="3"/><circle cx="1120" cy="72" r="2"/><circle cx="890" cy="218" r="2"/></g>
+<text x="30" y="18" class="micro">PROFILE // INTRO</text><text x="1170" y="18" text-anchor="end" class="micro">SIGNAL ACTIVE</text>
 </svg>
