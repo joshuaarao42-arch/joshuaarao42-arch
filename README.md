@@ -6,7 +6,7 @@
 
 <div align="center">
 
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:070B16,45:101B35,100:00D4FF&text=JOSHUA%20ARAO&fontColor=EAF6FF&fontSize=48&fontAlignY=38&desc=Computer%20Science%20Student%20%7C%20Developer&descAlignY=60&descSize=16&animation=fadeIn" alt="Joshua Arao profile header" />
+  <img width="100%" src="./assets/joshua-glitch-banner.svg" alt="Joshua Arao animated glitch profile banner" />
 
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=3000&pause=900&color=00D4FF&center=true&vCenter=true&width=650&lines=Building+useful+software.;Turning+ideas+into+working+projects.;Learning%2C+experimenting%2C+and+improving." alt="Typing introduction" />
 
