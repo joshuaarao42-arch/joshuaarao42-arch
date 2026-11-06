@@ -8,8 +8,6 @@
 
   <img width="100%" src="./assets/joshua-student-developer-banner.svg" alt="Joshua Arao animated glitch profile banner" />
 
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=3000&pause=900&color=00D4FF&center=true&vCenter=true&width=650&lines=Building+useful+software.;Turning+ideas+into+working+projects.;Learning%2C+experimenting%2C+and+improving." alt="Typing introduction" />
-
   <br />
 
   <a href="https://github.com/joshuaarao42-arch">
@@ -29,7 +27,7 @@
 
   <img width="100%" src="./assets/overview-glitch.svg?v=1" alt="Animated glitching overview heading" />
 
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=16&duration=2400&pause=500&color=00E5FF&center=true&vCenter=true&width=720&lines=COMPUTER+SCIENCE+STUDENT;BUILDING+USEFUL+SOFTWARE;TURNING+IDEAS+INTO+WORKING+PROJECTS;LEARN.+BUILD.+IMPROVE." alt="Animated overview typing text" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=16&duration=2600&pause=650&color=00E5FF&center=true&vCenter=true&width=720&lines=PYTHON+%E2%80%A2+WEB+%E2%80%A2+SOFTWARE+PROJECTS;EXPLORING+SOFTWARE+ENGINEERING;SOLVING+PROBLEMS+THROUGH+CODE;BUILDING+WITH+PURPOSE." alt="Animated overview typing text" />
 
 </div>
 
