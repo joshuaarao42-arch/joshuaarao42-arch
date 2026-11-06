@@ -108,11 +108,6 @@ class Builder:
 
   <img width="100%" src="./assets/header-certifications.svg?v=1" alt="Certifications and Events section header" />
 
-  <p>
-    <img src="https://img.shields.io/badge/CERTIFICATES-02-00E5FF?style=for-the-badge&labelColor=111827" alt="Two certificates" />
-    <img src="https://img.shields.io/badge/LEARNING-ALWAYS%20ON-8B5CF6?style=for-the-badge&labelColor=111827" alt="Always learning" />
-  </p>
-
   <table>
     <tr>
       <td width="50%" valign="top" align="center">
