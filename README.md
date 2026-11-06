@@ -6,7 +6,7 @@
 
 <div align="center">
 
-  <img width="100%" src="./assets/joshua-glitch-banner.svg?v=2" alt="Joshua Arao animated glitch profile banner" />
+  <img width="100%" src="./assets/joshua-glitch-banner.svg?v=3" alt="Joshua Arao animated glitch profile banner" />
 
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=3000&pause=900&color=00D4FF&center=true&vCenter=true&width=650&lines=Building+useful+software.;Turning+ideas+into+working+projects.;Learning%2C+experimenting%2C+and+improving." alt="Typing introduction" />
 
