@@ -17,9 +17,9 @@
 <path d="M0 14H900M0 78H900" stroke="url(#g)" stroke-width="1" opacity=".55"/>
 <path d="M0 14H150M750 78H900" stroke="#00e5ff" stroke-width="2"><animate attributeName="stroke-dasharray" values="10 20;80 10;10 20" dur="2.8s" repeatCount="indefinite"/></path>
 <g filter="url(#glow)">
- <text x="450" y="58" text-anchor="middle" class="c">OVERVIEW // 01</text>
- <text x="450" y="58" text-anchor="middle" class="m">OVERVIEW // 01</text>
- <text x="450" y="58" text-anchor="middle" class="base">OVERVIEW // 01</text>
+ <text x="450" y="58" text-anchor="middle" class="c">OVERVIEW</text>
+ <text x="450" y="58" text-anchor="middle" class="m">OVERVIEW</text>
+ <text x="450" y="58" text-anchor="middle" class="base">OVERVIEW</text>
 </g>
 <text x="12" y="10" class="tag">SYSTEM INTRO</text><text x="888" y="10" text-anchor="end" class="tag">SIGNAL_SYNC</text>
 <rect x="0" y="0" width="900" height="2" fill="#00e5ff" opacity=".65"><animate attributeName="y" values="0;90;0" dur="4s" repeatCount="indefinite"/></rect>
