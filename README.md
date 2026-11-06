@@ -108,28 +108,31 @@ class Builder:
 
   <img width="100%" src="./assets/header-certifications.svg?v=1" alt="Certifications and Events section header" />
 
-</div>
-
-<div align="center">
+  <p>
+    <img src="https://img.shields.io/badge/CERTIFICATES-02-00E5FF?style=for-the-badge&labelColor=111827" alt="Two certificates" />
+    <img src="https://img.shields.io/badge/LEARNING-ALWAYS%20ON-8B5CF6?style=for-the-badge&labelColor=111827" alt="Always learning" />
+  </p>
 
   <table>
     <tr>
-      <td width="50%" valign="top">
-        <h3 align="center">Google I/O Extended 2026 — Cagayan de Oro</h3>
-        <p align="center">
-          <img src="https://img.shields.io/badge/Google%20Developer%20Group-Certificate%20of%20Recognition-0B57D0?style=flat-square&logo=google" alt="Certificate of Recognition" />
-        </p>
-        <p align="center">Recognized for actively participating in Google I/O Extended 2026, held on September 5, 2026 at USTP CDO. <br />Verification code: <code>X67T-VZXG</code>.</p>
+      <td width="50%" valign="top" align="center">
+        <h3>Google I/O Extended 2026</h3>
+        <p><img src="https://img.shields.io/badge/GOOGLE%20DEVELOPER%20GROUP-RECOGNITION-0B57D0?style=flat-square&logo=google&logoColor=white" alt="Google Developer Group recognition" /></p>
+        <p>Certificate of Recognition<br />September 5, 2026 · Cagayan de Oro</p>
+        <p><a href="./certificates/google-io-extended-2026.pdf"><img src="https://img.shields.io/badge/VIEW%20CERTIFICATE-OPEN%20PDF-00B8D9?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="View Google I/O Extended certificate PDF" /></a></p>
+        <sub>Verification code: <code>X67T-VZXG</code></sub>
       </td>
-      <td width="50%" valign="top">
-        <h3 align="center">Digital Careers Expo (DCE) — Gingoog</h3>
-        <p align="center">
-          <img src="https://img.shields.io/badge/DICT-Certificate%20of%20Participation-145DA0?style=flat-square" alt="Certificate of Participation" />
-        </p>
-        <p align="center">Participated in the Digital Careers Expo under the theme “Navigating the Digital Frontier: Connecting Talent with Technology,” held on September 30, 2024. <br /><a href="https://verified.filpass.ph/">Verify document through FilPass</a>.</p>
+      <td width="50%" valign="top" align="center">
+        <h3>DICT Digital Careers Expo 2024</h3>
+        <p><img src="https://img.shields.io/badge/DICT-CERTIFICATE%20OF%20PARTICIPATION-145DA0?style=flat-square" alt="DICT certificate of participation" /></p>
+        <p>Certificate of Participation<br />September 30, 2024 · Gingoog</p>
+        <p><a href="./certificates/dict-digital-careers-expo-2024.pdf"><img src="https://img.shields.io/badge/VIEW%20CERTIFICATE-OPEN%20PDF-8B5CF6?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="View DICT Digital Careers Expo certificate PDF" /></a></p>
+        <sub><a href="https://verified.filpass.ph/">Verify document through FilPass</a></sub>
       </td>
     </tr>
   </table>
+
+  <sub>More certificates and achievements will be added here as the learning journey continues.</sub>
 
 </div>
 
