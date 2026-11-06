@@ -113,7 +113,7 @@ class Developer:
 
   **Thanks for stopping by!**
 
-  <sub>Always learning. Always building.</sub>
+  <sub>Hinay-hinay pero kanunay</sub>
 
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00D4FF,55:101B35,100:070B16&height=100&section=footer" alt="Profile footer" />
 
