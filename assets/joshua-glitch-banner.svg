@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Joshua Arao — Glitch profile banner</title>
+<desc id="desc">Large animated glitch typography over a dark futuristic cyan and violet background.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#050914"/><stop offset=".55" stop-color="#101b35"/><stop offset="1" stop-color="#07101d"/></linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00d4ff" stop-opacity="0"/><stop offset=".5" stop-color="#00d4ff"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <clipPath id="titleClip"><rect x="70" y="75" width="1060" height="145"/></clipPath>
+  <style>
+    text{font-family:'Arial Black',Impact,Arial,sans-serif;font-weight:900}
+    .main{font-size:112px;letter-spacing:5px;fill:#eaf6ff}
+    .cyan{fill:#00d4ff;opacity:.8;animation:shiftA 2.8s infinite steps(2,end)}
+    .pink{fill:#ff3ea5;opacity:.65;animation:shiftB 2.1s infinite steps(2,end)}
+    .mainText{animation:flicker 4.2s infinite}
+    .sub{font-family:Arial,sans-serif;font-size:22px;font-weight:700;letter-spacing:5px;fill:#b9cbe2;animation:subGlitch 3.4s infinite}
+    .micro{font-family:monospace;font-size:12px;letter-spacing:3px;fill:#00d4ff;animation:flicker 3s infinite}
+    @keyframes shiftA{0%,92%,100%{transform:translate(0,0)}93%{transform:translate(7px,-2px)}95%{transform:translate(-5px,2px)}97%{transform:translate(3px,0)}}
+    @keyframes shiftB{0%,90%,100%{transform:translate(0,0)}91%{transform:translate(-8px,2px)}94%{transform:translate(5px,-1px)}96%{transform:translate(-2px,0)}}
+    @keyframes flicker{0%,18%,20%,53%,55%,100%{opacity:1}19%,54%{opacity:.72}92%{opacity:.9}93%{opacity:.45}94%{opacity:1}}
+    @keyframes subGlitch{0%,94%,100%{transform:translateX(0);opacity:1}95%{transform:translateX(4px);opacity:.7}97%{transform:translateX(-3px);opacity:1}}
+    @keyframes scan{0%{transform:translateY(-370px)}100%{transform:translateY(370px)}}
+  </style>
+</defs>
+<rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+<g fill="none" stroke="#173451" opacity=".55"><path d="M0 65H1200M0 295H1200M55 0V360M1145 0V360"/><path d="M0 120H1200M0 240H1200" stroke-dasharray="3 12"/></g>
+<path d="M70 45H260M940 45H1130M70 315H330M870 315H1130" stroke="#00d4ff" stroke-width="2" opacity=".65"/>
+<text x="72" y="32" class="micro">J.A / SOFTWARE DEVELOPER</text>
+<text x="1128" y="32" class="micro" text-anchor="end">SYSTEM ONLINE // 2026</text>
+<g clip-path="url(#titleClip)" filter="url(#glow)">
+  <text x="600" y="190" text-anchor="middle" class="main cyan">JOSHUA ARAO</text>
+  <text x="600" y="190" text-anchor="middle" class="main pink">JOSHUA ARAO</text>
+  <text x="600" y="190" text-anchor="middle" class="main mainText">JOSHUA ARAO</text>
+</g>
+<path d="M210 220H990" stroke="url(#line)" stroke-width="2"/>
+<text x="600" y="263" text-anchor="middle" class="sub">COMPUTER SCIENCE STUDENT  //  DEVELOPER</text>
+<text x="600" y="300" text-anchor="middle" class="micro">BUILD  •  LEARN  •  IMPROVE</text>
+<rect x="0" y="0" width="1200" height="3" fill="#00d4ff" opacity=".5"><animate attributeName="y" values="-3;360" dur="5s" repeatCount="indefinite"/></rect>
+<circle cx="70" cy="180" r="4" fill="#00d4ff"><animate attributeName="opacity" values="1;.2;1" dur="1.3s" repeatCount="indefinite"/></circle>
+<circle cx="1130" cy="180" r="4" fill="#a78bfa"><animate attributeName="opacity" values=".2;1;.2" dur="1.7s" repeatCount="indefinite"/></circle>
+</svg>
