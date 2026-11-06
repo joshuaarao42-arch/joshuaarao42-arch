@@ -23,6 +23,14 @@
 
 ## <img src="https://img.shields.io/badge/01-ABOUT-00D4FF?style=flat-square" alt="About" />
 
+<div align="center">
+
+  <img width="100%" src="./assets/overview-glitch.svg?v=1" alt="Animated glitching overview heading" />
+
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=16&duration=2400&pause=500&color=00E5FF&center=true&vCenter=true&width=720&lines=COMPUTER+SCIENCE+STUDENT;BUILDING+USEFUL+SOFTWARE;TURNING+IDEAS+INTO+WORKING+PROJECTS;LEARN.+BUILD.+IMPROVE." alt="Animated overview typing text" />
+
+</div>
+
 Hi! I'm **Joshua Arao**, a Computer Science student who enjoys building practical software, exploring new technologies, and turning ideas into working applications.
 
 I’m interested in:
@@ -32,9 +40,9 @@ I’m interested in:
 - Learning through building and improving real projects
 
 ~~~python
-class StudentDeveloper:
+class Builder:
     name = "Joshua Arao"
-    role = "Student Developer"
+    role = "Computer Science Student"
     interests = ["Python", "Software Development", "Problem Solving"]
     mindset = "Build • Learn • Improve"
 ~~~
