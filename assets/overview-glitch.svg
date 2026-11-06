@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="92" viewBox="0 0 900 92" role="img" aria-labelledby="t d">
+<title id="t">Glitching overview title</title><desc id="d">Animated overview label with cyan and magenta glitch offsets and scanning signal.</desc>
+<defs>
+ <linearGradient id="g"><stop stop-color="#00e5ff"/><stop offset="1" stop-color="#b34cff"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <style>
+ text{font-family:monospace;font-weight:900;letter-spacing:7px}
+ .base{font-size:38px;fill:#eafaff}
+ .c{font-size:38px;fill:#00e5ff;opacity:.8;animation:a 2.4s infinite steps(2,end)}
+ .m{font-size:38px;fill:#ff3c9d;opacity:.75;animation:b 2.1s infinite steps(2,end)}
+ .tag{font-size:11px;fill:#a8c7dd;letter-spacing:3px;animation:f 3s infinite}
+ @keyframes a{0%,90%,100%{transform:translate(0,0)}92%{transform:translate(5px,-2px)}95%{transform:translate(-4px,1px)}}
+ @keyframes b{0%,88%,100%{transform:translate(0,0)}90%{transform:translate(-6px,2px)}94%{transform:translate(4px,-1px)}}
+ @keyframes f{0%,100%{opacity:1}50%{opacity:.4}}
+ </style>
+</defs>
+<path d="M0 14H900M0 78H900" stroke="url(#g)" stroke-width="1" opacity=".55"/>
+<path d="M0 14H150M750 78H900" stroke="#00e5ff" stroke-width="2"><animate attributeName="stroke-dasharray" values="10 20;80 10;10 20" dur="2.8s" repeatCount="indefinite"/></path>
+<g filter="url(#glow)">
+ <text x="450" y="58" text-anchor="middle" class="c">OVERVIEW // 01</text>
+ <text x="450" y="58" text-anchor="middle" class="m">OVERVIEW // 01</text>
+ <text x="450" y="58" text-anchor="middle" class="base">OVERVIEW // 01</text>
+</g>
+<text x="12" y="10" class="tag">SYSTEM INTRO</text><text x="888" y="10" text-anchor="end" class="tag">SIGNAL_SYNC</text>
+<rect x="0" y="0" width="900" height="2" fill="#00e5ff" opacity=".65"><animate attributeName="y" values="0;90;0" dur="4s" repeatCount="indefinite"/></rect>
+</svg>
