@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="92" viewBox="0 0 1200 92">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#00e5ff"/>
+      <stop offset=".52" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#ff3cac"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="92" fill="#070b16"/>
+  <path d="M0 74H1200" stroke="url(#g)" stroke-width="1" opacity=".55"/>
+  <path d="M30 18H190L205 33H995L1010 18H1170" fill="none" stroke="url(#g)" stroke-width="1.5" opacity=".65"/>
+  <g fill="#00e5ff" opacity=".7"><circle cx="30" cy="18" r="3"/><circle cx="1170" cy="18" r="3"/></g>
+  <text x="600" y="58" text-anchor="middle" fill="#eafaff" font-family="JetBrains Mono,Consolas,monospace" font-size="34" font-weight="700" letter-spacing="5" filter="url(#glow)">CERTIFICATIONS &amp; EVENTS</text>
+  <text x="600" y="82" text-anchor="middle" fill="#7dd3fc" font-family="monospace" font-size="10" letter-spacing="4">RECOGNITION // PARTICIPATION</text>
+</svg>
