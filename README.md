@@ -106,7 +106,7 @@ class Builder:
 
 <div align="center">
 
-  <img width="100%" src="./assets/header-certifications.svg?v=1" alt="Certifications and Events section header" />
+  <img width="100%" src="./assets/header-certifications.svg?v=1" alt="Certificates section header" />
 
   <table>
     <tr>
