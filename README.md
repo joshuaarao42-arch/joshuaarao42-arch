@@ -33,7 +33,11 @@
 
 </div>
 
-## <img src="https://img.shields.io/badge/02-ABOUT-00D4FF?style=flat-square" alt="About" />
+<div align="center">
+
+  <img width="100%" src="./assets/header-about.svg?v=1" alt="Animated About section header" />
+
+</div>
 
 Hi! I'm **Joshua Arao**, a Computer Science student who enjoys building practical software, exploring new technologies, and turning ideas into working applications.
 
@@ -51,7 +55,11 @@ class Builder:
     mindset = "Build • Learn • Improve"
 ~~~
 
-## <img src="https://img.shields.io/badge/03-TECH%20STACK-00D4FF?style=flat-square" alt="Tech stack" />
+<div align="center">
+
+  <img width="100%" src="./assets/header-tech-stack.svg?v=1" alt="Animated Tech Stack section header" />
+
+</div>
 
 <div align="center">
 
@@ -59,7 +67,11 @@ class Builder:
 
 </div>
 
-## <img src="https://img.shields.io/badge/04-FEATURED%20PROJECTS-00D4FF?style=flat-square" alt="Featured projects" />
+<div align="center">
+
+  <img width="100%" src="./assets/header-featured-projects.svg?v=1" alt="Animated Featured Projects section header" />
+
+</div>
 
 <div align="center">
 
@@ -94,7 +106,11 @@ class Builder:
 
 </div>
 
-## <img src="https://img.shields.io/badge/05-GITHUB%20STATISTICS-00D4FF?style=flat-square" alt="GitHub statistics" />
+<div align="center">
+
+  <img width="100%" src="./assets/header-github-statistics.svg?v=1" alt="Animated GitHub Statistics section header" />
+
+</div>
 
 <div align="center">
 
@@ -106,7 +122,11 @@ class Builder:
 
 </div>
 
-## <img src="https://img.shields.io/badge/06-3D%20CONTRIBUTION%20GRAPH-00D4FF?style=flat-square" alt="3D contribution graph" />
+<div align="center">
+
+  <img width="100%" src="./assets/header-contribution-graph.svg?v=1" alt="Animated 3D Contribution Graph section header" />
+
+</div>
 
 <div align="center">
 
