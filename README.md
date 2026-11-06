@@ -6,7 +6,7 @@
 
 <div align="center">
 
-  <img width="100%" src="./assets/joshua-glitch-banner.svg" alt="Joshua Arao animated glitch profile banner" />
+  <img width="100%" src="./assets/joshua-glitch-banner.svg?v=2" alt="Joshua Arao animated glitch profile banner" />
 
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=3000&pause=900&color=00D4FF&center=true&vCenter=true&width=650&lines=Building+useful+software.;Turning+ideas+into+working+projects.;Learning%2C+experimenting%2C+and+improving." alt="Typing introduction" />
 
@@ -15,7 +15,6 @@
   <a href="https://github.com/joshuaarao42-arch">
     <img src="https://img.shields.io/badge/GitHub-joshuaarao42--arch-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" />
   </a>
-  <img src="https://img.shields.io/badge/Focus-Software%20Development-0B1B2B?style=for-the-badge&logo=visualstudiocode&logoColor=00D4FF" alt="Software development" />
   <img src="https://img.shields.io/badge/Theme-Dark%20%2F%203D-17152B?style=for-the-badge&logo=githubsponsors&logoColor=A78BFA" alt="Dark 3D theme" />
 
 </div>
@@ -33,7 +32,7 @@ I’m interested in:
 - Learning through building and improving real projects
 
 ~~~python
-class Developer:
+class Builder:
     name = "Joshua Arao"
     role = "Computer Science Student"
     interests = ["Python", "Software Development", "Problem Solving"]
