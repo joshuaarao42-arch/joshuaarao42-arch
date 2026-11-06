@@ -87,12 +87,13 @@ class Developer:
 
 <div align="center">
 
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=joshuaarao42-arch&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=8B5CF6&text_color=C9D1D9&rank_icon=github" alt="GitHub statistics" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joshuaarao42-arch&layout=compact&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=C9D1D9" alt="Top languages" />
+  <img width="100%" src="./github-metrics.svg" alt="GitHub profile statistics and activity" />
 
   <br />
 
-  <img width="70%" src="https://streak-stats.demolab.com?user=joshuaarao42-arch&hide_border=true&background=0D1117&ring=00D4FF&fire=8B5CF6&currStreakLabel=00D4FF&sideLabels=C9D1D9&dates=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub contribution streak" />
+  <img width="100%" src="./github-languages.svg" alt="Most used programming languages" />
+
+  <sub>These statistics are generated and saved in this repository by GitHub Actions.</sub>
 
 </div>
 
