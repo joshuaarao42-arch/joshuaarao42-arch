@@ -119,14 +119,14 @@ class Builder:
         <p align="center">
           <img src="https://img.shields.io/badge/Google%20Developer%20Group-Certificate%20of%20Recognition-0B57D0?style=flat-square&logo=google" alt="Certificate of Recognition" />
         </p>
-        <p align="center">Recognized for actively participating in Google I/O Extended 2026, held on September 5, 2026 at USTP CDO.</p>
+        <p align="center">Recognized for actively participating in Google I/O Extended 2026, held on September 5, 2026 at USTP CDO. <br />Verification code: <code>X67T-VZXG</code>.</p>
       </td>
       <td width="50%" valign="top">
         <h3 align="center">Digital Careers Expo (DCE) — Gingoog</h3>
         <p align="center">
           <img src="https://img.shields.io/badge/DICT-Certificate%20of%20Participation-145DA0?style=flat-square" alt="Certificate of Participation" />
         </p>
-        <p align="center">Participated in the Digital Careers Expo under the theme “Navigating the Digital Frontier: Connecting Talent with Technology,” held on September 30, 2024.</p>
+        <p align="center">Participated in the Digital Careers Expo under the theme “Navigating the Digital Frontier: Connecting Talent with Technology,” held on September 30, 2024. <br /><a href="https://verified.filpass.ph/">Verify document through FilPass</a>.</p>
       </td>
     </tr>
   </table>
