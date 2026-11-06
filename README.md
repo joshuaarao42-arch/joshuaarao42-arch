@@ -19,7 +19,11 @@
 
 </div>
 
----
+<div align="center">
+
+  <img width="100%" src="./assets/profile-overview-divider.svg?v=1" alt="Animated neon divider separating the name banner from the overview" />
+
+</div>
 
 <div align="center">
 
