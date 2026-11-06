@@ -32,9 +32,9 @@ I’m interested in:
 - Learning through building and improving real projects
 
 ~~~python
-class Builder:
+class StudentDeveloper:
     name = "Joshua Arao"
-    role = "Computer Science Student"
+    role = "Student Developer"
     interests = ["Python", "Software Development", "Problem Solving"]
     mindset = "Build • Learn • Improve"
 ~~~
