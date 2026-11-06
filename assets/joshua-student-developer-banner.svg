@@ -34,7 +34,7 @@
 <g stroke="#00d9ff" stroke-width="1" opacity=".22"><path d="M0 80H1200M0 340H1200M90 0V420M1110 0V420" stroke-dasharray="5 12"><animate attributeName="stroke-dashoffset" from="0" to="-170" dur="9s" repeatCount="indefinite"/></path></g>
 <g fill="none" stroke="url(#neon)" stroke-width="2" opacity=".9"><path d="M-100 70H1300M-100 350H1300" stroke-dasharray="100 180"><animate attributeName="stroke-dashoffset" from="0" to="-560" dur="5s" repeatCount="indefinite"/></path></g>
 <path d="M70 48H270M930 48H1130M70 372H330M870 372H1130" stroke="#00e5ff" stroke-width="2" opacity=".75"/>
-<text x="72" y="34" class="micro">J.A // STUDENT DEVELOPER</text>
+<text x="72" y="34" class="micro">J.A // DIGITAL BUILDER</text>
 <text x="1128" y="34" class="micro" text-anchor="end">SIGNAL ACTIVE // 2026</text>
 <g clip-path="url(#titleClip)" filter="url(#glow)">
   <text x="600" y="205" text-anchor="middle" class="main cyan">JOSHUA ARAO</text>
@@ -42,7 +42,7 @@
   <text x="600" y="205" text-anchor="middle" class="main mainText">JOSHUA ARAO</text>
 </g>
 <path d="M180 235H1020" stroke="url(#neon)" stroke-width="3"><animate attributeName="opacity" values=".25;1;.25" dur="2s" repeatCount="indefinite"/></path>
-<text x="600" y="285" text-anchor="middle" class="sub">COMPUTER SCIENCE STUDENT // STUDENT DEVELOPER</text>
+<text x="600" y="285" text-anchor="middle" class="sub">COMPUTER SCIENCE STUDENT // DIGITAL BUILDER</text>
 <text x="600" y="326" text-anchor="middle" class="micro">BUILD  •  LEARN  •  EXPLORE  •  IMPROVE</text>
 <text x="70" y="402" class="tiny">[ JOSHUA.A / PORTFOLIO_NODE ]</text>
 <text x="1130" y="402" class="tiny" text-anchor="end">[ END OF TRANSMISSION ]</text>
