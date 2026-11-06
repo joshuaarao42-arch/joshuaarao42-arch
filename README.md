@@ -25,7 +25,7 @@
 
 <div align="center">
 
-  <img width="100%" src="./assets/overview-glitch.svg?v=2" alt="Animated glitching overview heading" />
+  <img width="100%" src="./assets/overview-glitch.svg?v=3" alt="Animated full-width overview glitch banner" />
 
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=16&duration=2600&pause=650&color=00E5FF&center=true&vCenter=true&width=720&lines=PYTHON+%E2%80%A2+WEB+%E2%80%A2+SOFTWARE+PROJECTS;EXPLORING+SOFTWARE+DEVELOPMENT;SOLVING+PROBLEMS+THROUGH+CODE;BUILDING+WITH+PURPOSE." alt="Animated overview typing text" />
 
