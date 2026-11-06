@@ -25,7 +25,7 @@
 
 <div align="center">
 
-  <img width="100%" src="./assets/overview-glitch.svg?v=3" alt="Animated full-width overview glitch banner" />
+  <img width="100%" src="./assets/overview-glitch.svg?v=99" alt="Animated full-width overview glitch banner" />
 
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=16&duration=2600&pause=650&color=00E5FF&center=true&vCenter=true&width=720&lines=PYTHON+%E2%80%A2+WEB+%E2%80%A2+SOFTWARE+PROJECTS;EXPLORING+SOFTWARE+DEVELOPMENT;SOLVING+PROBLEMS+THROUGH+CODE;BUILDING+WITH+PURPOSE." alt="Animated overview typing text" />
 
@@ -33,7 +33,7 @@
 
 <div align="center">
 
-  <img width="100%" src="./assets/header-about.svg?v=2" alt="Animated About section header" />
+  <img width="100%" src="./assets/header-about.svg?v=99" alt="Animated About section header" />
 
 </div>
 
@@ -55,7 +55,7 @@ class Builder:
 
 <div align="center">
 
-  <img width="100%" src="./assets/header-tech-stack.svg?v=2" alt="Animated Tech Stack section header" />
+  <img width="100%" src="./assets/header-tech-stack.svg?v=99" alt="Animated Tech Stack section header" />
 
 </div>
 
@@ -67,7 +67,7 @@ class Builder:
 
 <div align="center">
 
-  <img width="100%" src="./assets/header-featured-projects.svg?v=2" alt="Animated Featured Projects section header" />
+  <img width="100%" src="./assets/header-featured-projects.svg?v=99" alt="Animated Featured Projects section header" />
 
 </div>
 
@@ -106,7 +106,7 @@ class Builder:
 
 <div align="center">
 
-  <img width="100%" src="./assets/header-certifications.svg?v=2" alt="Certificates section header" />
+  <img width="100%" src="./assets/header-certifications.svg?v=99" alt="Certificates section header" />
 
   <table>
     <tr>
@@ -133,7 +133,7 @@ class Builder:
 
 <div align="center">
 
-  <img width="100%" src="./assets/header-github-statistics.svg?v=2" alt="Animated GitHub Statistics section header" />
+  <img width="100%" src="./assets/header-github-statistics.svg?v=99" alt="Animated GitHub Statistics section header" />
 
 </div>
 
@@ -149,7 +149,7 @@ class Builder:
 
 <div align="center">
 
-  <img width="100%" src="./assets/header-contribution-graph.svg?v=2" alt="Animated 3D Contribution Graph section header" />
+  <img width="100%" src="./assets/header-contribution-graph.svg?v=99" alt="Animated 3D Contribution Graph section header" />
 
 </div>
 
