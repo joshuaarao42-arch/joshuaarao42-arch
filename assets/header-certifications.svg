@@ -1,16 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="92" viewBox="0 0 1200 92">
-  <defs>
-    <linearGradient id="g" x1="0" x2="1">
-      <stop offset="0" stop-color="#00e5ff"/>
-      <stop offset=".52" stop-color="#8b5cf6"/>
-      <stop offset="1" stop-color="#ff3cac"/>
-    </linearGradient>
-    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  </defs>
-  <rect width="1200" height="92" fill="#070b16"/>
-  <path d="M0 74H1200" stroke="url(#g)" stroke-width="1" opacity=".55"/>
-  <path d="M30 18H190L205 33H995L1010 18H1170" fill="none" stroke="url(#g)" stroke-width="1.5" opacity=".65"/>
-  <g fill="#00e5ff" opacity=".7"><circle cx="30" cy="18" r="3"/><circle cx="1170" cy="18" r="3"/></g>
-  <text x="600" y="58" text-anchor="middle" fill="#eafaff" font-family="JetBrains Mono,Consolas,monospace" font-size="34" font-weight="700" letter-spacing="5" filter="url(#glow)">CERTIFICATIONS &amp; EVENTS</text>
-  <text x="600" y="82" text-anchor="middle" fill="#7dd3fc" font-family="monospace" font-size="10" letter-spacing="4">RECOGNITION // PARTICIPATION</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330">
+<defs>
+ <linearGradient id="bg"><stop stop-color="#050b1d"/><stop offset=".55" stop-color="#101a45"/><stop offset="1" stop-color="#24104b"/></linearGradient>
+ <linearGradient id="neon"><stop stop-color="#00e5ff"/><stop offset=".52" stop-color="#8b5cf6"/><stop offset="1" stop-color="#ff3cac"/></linearGradient>
+ <linearGradient id="gold"><stop stop-color="#fff0a6"/><stop offset=".5" stop-color="#ffbd38"/><stop offset="1" stop-color="#d97706"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#5aa8ff" stroke-opacity=".10"/></pattern>
+ <style>
+ .head{font:900 58px Arial,sans-serif;letter-spacing:4px;fill:#f4f8ff}
+ .sub{font:700 15px monospace;letter-spacing:4px;fill:#a9d9ff}
+ .g1{animation:g1 3s infinite steps(2,end)}.g2{animation:g2 2.6s infinite steps(2,end)}
+ .float{animation:fl 4s ease-in-out infinite}.scan{animation:sc 5s linear infinite}
+ @keyframes g1{0%,91%,100%{transform:translate(0)}93%{transform:translate(5px,-2px)}96%{transform:translate(-4px,1px)}}
+ @keyframes g2{0%,88%,100%{transform:translate(0)}90%{transform:translate(-5px,2px)}95%{transform:translate(3px,-1px)}}
+ @keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+ @keyframes sc{from{transform:translateX(-260px)}to{transform:translateX(260px)}}
+ </style>
+</defs>
+<rect width="1200" height="330" rx="22" fill="url(#bg)" stroke="#24518a" stroke-width="2"/><rect width="1200" height="330" rx="22" fill="url(#grid)"/>
+<ellipse cx="930" cy="160" rx="260" ry="140" fill="#7138e8" opacity=".18"/><ellipse cx="230" cy="160" rx="170" ry="120" fill="#00cfff" opacity=".10"/>
+<path d="M0 290H1200" stroke="url(#neon)" opacity=".8" stroke-width="2"/>
+<g class="float">
+ <circle cx="160" cy="155" r="86" fill="none" stroke="#00dfff" stroke-dasharray="3 8" stroke-width="2"/><circle cx="160" cy="155" r="69" fill="none" stroke="#8b5cf6" stroke-width="2"/>
+ <path d="M130 207v66l22-18 22 18v-66" fill="#0891b2"/><path d="M174 207v66l22-18 22 18v-66" fill="#7c3aed"/>
+ <circle cx="160" cy="150" r="52" fill="url(#gold)" stroke="#ffe6a3" stroke-width="3" filter="url(#glow)"/><circle cx="160" cy="150" r="41" fill="none" stroke="#fff4c2" opacity=".7"/>
+ <path d="M160 119l9 19 21 3-15 15 4 21-19-10-19 10 4-21-15-15 21-3z" fill="#fff2c2" stroke="#b45309" stroke-width="2"/>
+</g>
+<g class="float">
+ <g transform="rotate(8 1000 145)"><rect x="880" y="65" width="235" height="155" rx="12" fill="#1b3473" stroke="#3867c4"/><path d="M910 100h170M910 117h140M910 134h155" stroke="#8bb7ff" stroke-width="5" opacity=".35"/></g>
+ <g transform="rotate(-5 970 180)"><rect x="830" y="105" width="245" height="160" rx="12" fill="#0b1740" stroke="#00cfff" stroke-width="2"/><text x="952" y="140" text-anchor="middle" font-family="monospace" font-size="16" font-weight="bold" letter-spacing="3" fill="#f2f7ff">CERTIFICATE</text><path d="M865 158h170M865 175h145M875 228q18-30 36 0t36-4" stroke="#7ba5ed" stroke-width="4" opacity=".45" fill="none"/><text x="952" y="247" text-anchor="middle" font-family="monospace" font-size="10" letter-spacing="3" fill="#8cecff">VERIFIED RECORD</text></g>
+ <circle cx="1088" cy="88" r="15" fill="#10b981" stroke="#d1fae5" stroke-width="2"/><path d="M1081 88l5 5 10-12" fill="none" stroke="white" stroke-width="3"/>
+</g>
+<text x="300" y="145" class="head" filter="url(#glow)">CERTIFICATES</text><text x="300" y="145" class="head g1" fill="#00e5ff" opacity=".55">CERTIFICATES</text><text x="300" y="145" class="head g2" fill="#ff3cac" opacity=".5">CERTIFICATES</text>
+<path d="M300 166H760" stroke="url(#neon)" stroke-width="3"/><text x="302" y="202" class="sub">LEARNING • PARTICIPATION • RECOGNITION</text><text x="302" y="239" font-family="monospace" font-size="11" letter-spacing="3" fill="#7dd3fc">A COLLECTION OF VERIFIED MILESTONES</text>
+<g class="scan"><path d="M600 0v330" stroke="#7cecff" stroke-width="48" opacity=".055"/></g>
 </svg>
