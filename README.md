@@ -93,8 +93,6 @@ class Developer:
 
   <img width="100%" src="./github-languages.svg" alt="Most used programming languages" />
 
-  <sub>These statistics are generated and saved in this repository by GitHub Actions.</sub>
-
 </div>
 
 ## <img src="https://img.shields.io/badge/05-3D%20CONTRIBUTION%20GRAPH-00D4FF?style=flat-square" alt="3D contribution graph" />
@@ -102,8 +100,6 @@ class Developer:
 <div align="center">
 
   <img width="100%" src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D GitHub contribution graph" />
-
-  <sub>This graphic is generated and refreshed automatically by GitHub Actions.</sub>
 
 </div>
 
