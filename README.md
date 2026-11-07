@@ -76,34 +76,15 @@ class Builder:
 
 <div align="center">
 
-  <table>
-    <tr>
-      <td width="33%" valign="top">
-        <h3 align="center">KODIGO</h3>
-        <p align="center">
-          <img src="https://img.shields.io/badge/Python-QR%20Code%20Studio-172554?style=flat-square&logo=python&logoColor=FFD43B" alt="Python QR Code Studio" />
-        </p>
-        <p align="center">A customizable QR code studio for generating, personalizing, previewing, and exporting QR codes.</p>
-        <p align="center"><a href="https://github.com/joshuaarao42-arch/KODIGO"><strong>Explore repository →</strong></a></p>
-      </td>
-      <td width="33%" valign="top">
-        <h3 align="center">HULAGWAY</h3>
-        <p align="center">
-          <img src="https://img.shields.io/badge/Python-Image%20Processing-172554?style=flat-square&logo=python&logoColor=FFD43B" alt="Python Image Processing" />
-        </p>
-        <p align="center">A desktop image toolkit for compression, format conversion, resizing, batch processing, and image inspection.</p>
-        <p align="center"><a href="https://github.com/joshuaarao42-arch/HULAGWAY"><strong>Explore repository →</strong></a></p>
-      </td>
-      <td width="33%" valign="top">
-        <h3 align="center">KONSUMO</h3>
-        <p align="center">
-          <img src="https://img.shields.io/badge/Python-Analytics%20Dashboard-172554?style=flat-square&logo=python&logoColor=FFD43B" alt="Python Analytics Dashboard" />
-        </p>
-        <p align="center">A household utility monitoring dashboard for tracking electricity and water usage, costs, and consumption insights.</p>
-        <p align="center"><a href="https://github.com/joshuaarao42-arch/KONSUMO"><strong>Explore repository →</strong></a></p>
-      </td>
-    </tr>
-  </table>
+  <a href="https://github.com/joshuaarao42-arch/KODIGO">
+    <img width="100%" src="./assets/featured-projects-showcase.svg?v=1" alt="Animated neon showcase of KODIGO, HULAGWAY, and KONSUMO featured projects" />
+  </a>
+
+  <br />
+
+  <a href="https://github.com/joshuaarao42-arch/KODIGO"><img src="https://img.shields.io/badge/01-KODIGO-071b35?style=for-the-badge&logo=github&logoColor=00e5ff" alt="Explore KODIGO repository" /></a>
+  <a href="https://github.com/joshuaarao42-arch/HULAGWAY"><img src="https://img.shields.io/badge/02-HULAGWAY-171238?style=for-the-badge&logo=github&logoColor=a855f7" alt="Explore HULAGWAY repository" /></a>
+  <a href="https://github.com/joshuaarao42-arch/KONSUMO"><img src="https://img.shields.io/badge/03-KONSUMO-260f2b?style=for-the-badge&logo=github&logoColor=ff3cac" alt="Explore KONSUMO repository" /></a>
 
 </div>
 
