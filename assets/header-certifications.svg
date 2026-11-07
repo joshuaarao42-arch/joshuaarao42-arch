@@ -9,7 +9,7 @@
  .head{font:900 58px Arial,sans-serif;letter-spacing:4px;fill:#f4f8ff}
  .sub{font:700 15px monospace;letter-spacing:4px;fill:#a9d9ff}
  .g1{animation:g1 3s infinite steps(2,end)}.g2{animation:g2 2.6s infinite steps(2,end)}
- .float{animation:fl 4s ease-in-out infinite}.scan{animation:sc 5s linear infinite}
+ .float{animation:fl 4s ease-in-out infinite}
  @keyframes g1{0%,91%,100%{transform:translate(0)}93%{transform:translate(5px,-2px)}96%{transform:translate(-4px,1px)}}
  @keyframes g2{0%,88%,100%{transform:translate(0)}90%{transform:translate(-5px,2px)}95%{transform:translate(3px,-1px)}}
  @keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
