@@ -13,7 +13,7 @@
  @keyframes g1{0%,91%,100%{transform:translate(0)}93%{transform:translate(5px,-2px)}96%{transform:translate(-4px,1px)}}
  @keyframes g2{0%,88%,100%{transform:translate(0)}90%{transform:translate(-5px,2px)}95%{transform:translate(3px,-1px)}}
  @keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
- @keyframes sc{from{transform:translateX(-260px)}to{transform:translateX(260px)}}
+
  </style>
 </defs>
 <rect width="1200" height="330" rx="22" fill="url(#bg)" stroke="#24518a" stroke-width="2"/><rect width="1200" height="330" rx="22" fill="url(#grid)"/>
@@ -30,7 +30,7 @@
  <g transform="rotate(-5 970 180)"><rect x="830" y="105" width="245" height="160" rx="12" fill="#0b1740" stroke="#00cfff" stroke-width="2"/><text x="952" y="140" text-anchor="middle" font-family="monospace" font-size="16" font-weight="bold" letter-spacing="3" fill="#f2f7ff">CERTIFICATE</text><path d="M865 158h170M865 175h145M875 228q18-30 36 0t36-4" stroke="#7ba5ed" stroke-width="4" opacity=".45" fill="none"/><text x="952" y="247" text-anchor="middle" font-family="monospace" font-size="10" letter-spacing="3" fill="#8cecff">VERIFIED RECORD</text></g>
  <circle cx="1088" cy="88" r="15" fill="#10b981" stroke="#d1fae5" stroke-width="2"/><path d="M1081 88l5 5 10-12" fill="none" stroke="white" stroke-width="3"/>
 </g>
-<text x="300" y="145" class="head" filter="url(#glow)">CERTIFICATES</text><text x="300" y="145" class="head g1" fill="#00e5ff" opacity=".55">CERTIFICATES</text><text x="300" y="145" class="head g2" fill="#ff3cac" opacity=".5">CERTIFICATES</text>
+<text x="300" y="145" class="head">CERTIFICATES</text><text x="300" y="145" class="head g1" fill="#00e5ff" opacity=".55">CERTIFICATES</text><text x="300" y="145" class="head g2" fill="#ff3cac" opacity=".5">CERTIFICATES</text>
 <path d="M300 166H760" stroke="url(#neon)" stroke-width="3"/><text x="302" y="202" class="sub">LEARNING • PARTICIPATION • RECOGNITION</text><text x="302" y="239" font-family="monospace" font-size="11" letter-spacing="3" fill="#7dd3fc">A COLLECTION OF VERIFIED MILESTONES</text>
-<g class="scan"><path d="M600 0v330" stroke="#7cecff" stroke-width="48" opacity=".055"/></g>
+<path d="M300 265H760" stroke="url(#gold)" stroke-width="2" stroke-dasharray="3 9" opacity=".65"/>
 </svg>
