@@ -13,6 +13,9 @@
   <a href="https://github.com/joshuaarao42-arch">
     <img src="https://img.shields.io/badge/GitHub-joshuaarao42--arch-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" />
   </a>
+  <a href="https://www.linkedin.com/in/arao-joshua-c-a60a67449" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile" />
+  </a>
   <img src="https://img.shields.io/badge/Theme-Dark%20%2F%203D-17152B?style=for-the-badge&logo=githubsponsors&logoColor=A78BFA" alt="Dark 3D theme" />
 
 </div>
