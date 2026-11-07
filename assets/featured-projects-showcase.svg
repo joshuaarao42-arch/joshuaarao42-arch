@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+<title id="title">Featured Projects</title>
+<desc id="desc">Three animated neon project panels for KODIGO, HULAGWAY, and KONSUMO, matching the dark cyan violet and magenta glitch style of the profile overview.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050b1d"/><stop offset=".55" stop-color="#101a3a"/><stop offset="1" stop-color="#21113f"/></linearGradient>
+ <linearGradient id="neon"><stop stop-color="#00e5ff"/><stop offset=".52" stop-color="#8b5cf6"/><stop offset="1" stop-color="#ff3cac"/></linearGradient>
+ <linearGradient id="cyan"><stop stop-color="#00e5ff"/><stop offset="1" stop-color="#477bff"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#62bfff" stroke-opacity=".08"/></pattern>
+ <style>
+ .name{font:900 34px monospace;letter-spacing:4px;fill:#f1fbff}
+ .ghostA{font:900 34px monospace;letter-spacing:4px;fill:#00e5ff;opacity:.65;animation:ga 2.8s infinite steps(2,end)}
+ .ghostB{font:900 34px monospace;letter-spacing:4px;fill:#ff3cac;opacity:.55;animation:gb 2.3s infinite steps(2,end)}
+ .tag{font:700 12px monospace;letter-spacing:3px;fill:#7ddfff}
+ .desc{font:14px Arial,sans-serif;fill:#d2e7ff}
+ .micro{font:9px monospace;letter-spacing:2px;fill:#6dbde8}
+ .edge{fill:#07132c;fill-opacity:.78;stroke:url(#neon);stroke-width:1.4}
+ .pulse{animation:pulse 2.4s ease-in-out infinite}
+ .scan{animation:scan 5s linear infinite}
+ @keyframes ga{0%,90%,100%{transform:translate(0)}93%{transform:translate(3px,-1px)}96%{transform:translate(-2px,1px)}}
+ @keyframes gb{0%,87%,100%{transform:translate(0)}91%{transform:translate(-3px,1px)}95%{transform:translate(2px,-1px)}}
+ @keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+ @keyframes scan{from{transform:translateX(-250px)}to{transform:translateX(250px)}}
+ </style>
+</defs>
+<rect width="1200" height="330" rx="18" fill="url(#bg)" stroke="#24518a" stroke-width="2"/>
+<rect width="1200" height="330" rx="18" fill="url(#grid)"/>
+<path d="M25 42H1175M25 288H1175" stroke="url(#neon)" opacity=".65"/>
+<text x="48" y="29" class="micro">SELECTED BUILDS // 03 PROJECTS</text>
+<text x="1150" y="29" text-anchor="end" class="micro">BUILD • TEST • IMPROVE</text>
+<g transform="translate(38 62)">
+ <path class="edge" d="M0 12L12 0H350L362 12V198L350 210H12L0 198Z"/>
+ <path d="M0 40H362" stroke="url(#cyan)" opacity=".65"/>
+ <text x="24" y="29" class="micro">01 / GENERATION TOOL</text>
+ <g filter="url(#glow)"><text x="26" y="96" class="ghostA">KODIGO</text><text x="22" y="96" class="ghostB">KODIGO</text><text x="24" y="96" class="name">KODIGO</text></g>
+ <text x="25" y="125" class="tag">PYTHON • QR CODE STUDIO</text>
+ <text x="25" y="158" class="desc">Create, customize, preview</text><text x="25" y="179" class="desc">and export QR codes.</text>
+ <circle cx="332" cy="184" r="4" fill="#00e5ff" class="pulse"/>
+</g>
+<g transform="translate(419 62)">
+ <path class="edge" d="M0 12L12 0H350L362 12V198L350 210H12L0 198Z"/>
+ <path d="M0 40H362" stroke="#a855f7" opacity=".8"/>
+ <text x="24" y="29" class="micro">02 / DESKTOP TOOLKIT</text>
+ <g filter="url(#glow)"><text x="26" y="96" class="ghostA">HULAGWAY</text><text x="22" y="96" class="ghostB">HULAGWAY</text><text x="24" y="96" class="name">HULAGWAY</text></g>
+ <text x="25" y="125" class="tag">PYTHON • IMAGE PROCESSING</text>
+ <text x="25" y="158" class="desc">Compress, resize, convert</text><text x="25" y="179" class="desc">and inspect images in batches.</text>
+ <circle cx="332" cy="184" r="4" fill="#a855f7" class="pulse"/>
+</g>
+<g transform="translate(800 62)">
+ <path class="edge" d="M0 12L12 0H350L362 12V198L350 210H12L0 198Z"/>
+ <path d="M0 40H362" stroke="#ff3cac" opacity=".8"/>
+ <text x="24" y="29" class="micro">03 / HOUSEHOLD ANALYTICS</text>
+ <g filter="url(#glow)"><text x="26" y="96" class="ghostA">KONSUMO</text><text x="22" y="96" class="ghostB">KONSUMO</text><text x="24" y="96" class="name">KONSUMO</text></g>
+ <text x="25" y="125" class="tag">PYTHON • WEB DASHBOARD</text>
+ <text x="25" y="158" class="desc">Track household utility usage,</text><text x="25" y="179" class="desc">costs and consumption insights.</text>
+ <circle cx="332" cy="184" r="4" fill="#ff3cac" class="pulse"/>
+</g>
+<g class="scan"><path d="M600 48V286" stroke="#7cecff" stroke-width="38" opacity=".055"/></g>
+<text x="600" y="309" text-anchor="middle" class="micro">SOFTWARE PROJECTS // MADE WITH PURPOSE</text>
+</svg>
