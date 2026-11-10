@@ -9,7 +9,7 @@
 <text x="48" y="148" class="accent" font-size="27" font-weight="700">15</text>
 <rect x="250" y="88" width="198" height="76" rx="12" fill="#0B1427" stroke="#263B5A"/>
 <text x="266" y="116" class="muted" font-size="10" letter-spacing="1">FOLLOWERS</text>
-<text x="266" y="148" class="accent" font-size="27" font-weight="700">8</text>
+<text x="266" y="148" class="accent" font-size="27" font-weight="700">7</text>
 <rect x="468" y="88" width="198" height="76" rx="12" fill="#0B1427" stroke="#263B5A"/>
 <text x="484" y="116" class="muted" font-size="10" letter-spacing="1">STARS EARNED</text>
 <text x="484" y="148" class="accent" font-size="27" font-weight="700">20</text>
