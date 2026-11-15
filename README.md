@@ -6,7 +6,7 @@
 
 <div align="center">
 
-  <img width="100%" src="./assets/joshua-student-developer-banner.svg?v=2" alt="Joshua Arao animated glitch profile banner" />
+  <img width="100%" src="./assets/joshua-software-developer-banner.svg" alt="Joshua Arao animated glitch profile banner" />
 
   <br />
 
