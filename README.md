@@ -109,6 +109,14 @@ class Builder:
         <sub><a href="https://verified.filpass.ph/">Verify document through FilPass</a></sub>
       </td>
     </tr>
+    <tr>
+      <td colspan="2" valign="top" align="center">
+        <h3>DevFest Cagayan de Oro 2026</h3>
+        <p><img src="https://img.shields.io/badge/GOOGLE%20DEVELOPER%20GROUP-CERTIFICATE%20OF%20PARTICIPATION-F9AB00?style=flat-square&logo=google&logoColor=white" alt="Google Developer Group certificate of participation" /></p>
+        <p>Certificate of Participation<br />November 21, 2026 · Cagayan de Oro</p>
+        <sub>Google Developer Group Cagayan de Oro · Verification code: <code>GBR4-88HJ</code></sub>
+      </td>
+    </tr>
   </table>
 
   <sub>More certificates and achievements will be added here as the learning journey continues.</sub>
