@@ -114,7 +114,7 @@ class Builder:
         <h3>DevFest Cagayan de Oro 2026</h3>
         <p><img src="https://img.shields.io/badge/GOOGLE%20DEVELOPER%20GROUP-CERTIFICATE%20OF%20PARTICIPATION-F9AB00?style=flat-square&logo=google&logoColor=white" alt="Google Developer Group certificate of participation" /></p>
         <p>Certificate of Participation<br />November 21, 2026 · Cagayan de Oro</p>
-        <p><a href="./certificates/Joshua_C_Arao_Certificate.pdf"><img src="https://img.shields.io/badge/VIEW%20CERTIFICATE-OPEN%20PDF-00B8D9?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="View DevFest Cagayan de Oro certificate PDF" /></a></p>
+        <p><a href="./certificates/devfest-cagayan-de-oro.pdf"><img src="https://img.shields.io/badge/VIEW%20CERTIFICATE-OPEN%20PDF-00B8D9?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="View DevFest Cagayan de Oro certificate PDF" /></a></p>
         <sub>Google Developer Group Cagayan de Oro · Verification code: <code>GBR4-88HJ</code></sub>
       </td>
     </tr>
