@@ -4,23 +4,23 @@
 <style>text{font-family:Arial,Helvetica,sans-serif}.muted{fill:#94A3B8}.bright{fill:#EAF6FF}.accent{fill:#00D4FF}</style>
 <text x="32" y="42" class="bright" font-size="20" font-weight="700">TOP LANGUAGES</text>
 <text x="32" y="64" class="muted" font-size="11">Based on language bytes across public repositories</text>
-<rect x="32.00" y="92" width="719.23" height="13" rx="6" fill="#00D4FF"/>
-<rect x="751.23" y="92" width="46.88" height="13" rx="6" fill="#38BDF8"/>
-<rect x="798.11" y="92" width="38.50" height="13" rx="6" fill="#818CF8"/>
-<rect x="836.61" y="92" width="30.58" height="13" rx="6" fill="#A78BFA"/>
-<rect x="867.19" y="92" width="2.00" height="13" rx="6" fill="#34D399"/>
+<rect x="32.00" y="92" width="720.46" height="13" rx="6" fill="#00D4FF"/>
+<rect x="752.46" y="92" width="46.38" height="13" rx="6" fill="#38BDF8"/>
+<rect x="798.85" y="92" width="38.10" height="13" rx="6" fill="#818CF8"/>
+<rect x="836.94" y="92" width="30.26" height="13" rx="6" fill="#A78BFA"/>
+<rect x="867.20" y="92" width="2.00" height="13" rx="6" fill="#34D399"/>
 <circle cx="40" cy="133" r="4" fill="#00D4FF"/>
 <text x="54" y="137" class="bright" font-size="12">Python</text>
-<text x="866" y="137" class="muted" font-size="12" text-anchor="end">86.0%</text>
+<text x="866" y="137" class="muted" font-size="12" text-anchor="end">86.2%</text>
 <circle cx="40" cy="150" r="4" fill="#38BDF8"/>
 <text x="54" y="154" class="bright" font-size="12">JavaScript</text>
-<text x="866" y="154" class="muted" font-size="12" text-anchor="end">5.6%</text>
+<text x="866" y="154" class="muted" font-size="12" text-anchor="end">5.5%</text>
 <circle cx="40" cy="167" r="4" fill="#818CF8"/>
 <text x="54" y="171" class="bright" font-size="12">CSS</text>
 <text x="866" y="171" class="muted" font-size="12" text-anchor="end">4.6%</text>
 <circle cx="40" cy="184" r="4" fill="#A78BFA"/>
 <text x="54" y="188" class="bright" font-size="12">HTML</text>
-<text x="866" y="188" class="muted" font-size="12" text-anchor="end">3.7%</text>
+<text x="866" y="188" class="muted" font-size="12" text-anchor="end">3.6%</text>
 <circle cx="40" cy="201" r="4" fill="#34D399"/>
 <text x="54" y="205" class="bright" font-size="12">Batchfile</text>
 <text x="866" y="205" class="muted" font-size="12" text-anchor="end">0.1%</text>
